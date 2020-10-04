@@ -1,0 +1,81 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  
+</style>
+<nav class="navbar container-fluid navbar-expand-md navbar-dark bg-blue">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span>Logo</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/browse-data">Browser Service Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"routerLink="/formsfield">Forms</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="clearfix"></div>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+<!-- <div class="container-fluid">
+  <div class="col-md-12">
+
+ 
+<input matInput [matDatepicker]="picker" placeholder="Pick a date">
+<mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+<mat-datepicker #picker></mat-datepicker>
+
+<input matInput [matDatepicker]="picker" placeholder="Pick a date">
+<mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+<mat-datepicker #picker></mat-datepicker>
+</div>
+</div> -->
